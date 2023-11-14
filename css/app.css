@@ -1,8 +1,11 @@
 body {
+	height: 100vh;
 	background-image: url('/img/band.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-clip: revert;
+	_backdrop-filter: grayscale(100%);
+	_backdrop-filter: opacity(20%);
+	backdrop-filter: blur(1.5px);
 }
 h5 {
 	text-align: center;
