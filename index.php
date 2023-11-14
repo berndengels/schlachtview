@@ -1,11 +1,14 @@
 <?php
+
+use inc\Media;
+
 require_once 'inc/header.php';
-$files = \inc\Media::getMedia();
+$files = Media::getMedia();
 ?>
 <div class="container-fluid">
 	<div class="row align-content-center justify-content-center">
 		<div class="col-sm-12 col-lg-4 align-self-center d-inline-block align-middle">
-			<h5 class="mt-5">Schlachtview - Schocktherapie</h5>
+			<h5 class="mt-5">Schlachtview - Schocktherapie (Berlin 1997)</h5>
 			<table class="media">
 				<?php foreach ($files as $file): ?>
 					<tr>
