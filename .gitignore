@@ -1,0 +1,6 @@
+.DS_Store
+/.editorconfig
+/.idea
+/.vscode
+/_ide_helper.php
+/.phpstorm.meta.php

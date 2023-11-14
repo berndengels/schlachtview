@@ -1,0 +1,21 @@
+body {
+	background-image: url('/img/band.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: revert;
+}
+h5 {
+	text-align: center;
+	background: transparent;
+	color: #fff;
+	text-shadow: red;
+}
+.media {
+	margin-top: 100px;
+	margin: auto;
+}
+.media td {
+	background: transparent;
+	color: #fff;
+	text-shadow: red;
+}
