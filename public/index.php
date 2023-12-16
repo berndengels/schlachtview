@@ -1,28 +1,13 @@
-<?php
-
-use inc\Media;
-
-require_once 'inc/header.php';
-$files = Media::getMedia();
-?>
-<div class="container-fluid">
-	<div class="row align-content-center justify-content-center">
-		<div class="col-sm-12 col-lg-4 align-self-center d-inline-block align-middle">
-			<h5 class="mt-5">Schlachtview - Schocktherapie (Berlin 1997)</h5>
-			<table class="media">
-				<?php foreach ($files as $file): ?>
-					<tr>
-						<td><?php echo $file['name']; ?></td>
-						<td>
-							<audio controls preload="none" style="width:280px;">
-								<source src="<?php echo $file['path']; ?>" type="audio/mp4" />
-								<p>Your browser does not support HTML5 audio.</p>
-							</audio>
-						</td>
-					</tr>
-				<?php endforeach; ?>
-			</table>
-		</div>
-	</div>
-</div>
-<?php require_once 'inc/footer.php' ?>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta title="Schlachtvieh - Schocktherapie">
+	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/app.css"/>
+	<script src="js/app.js"></script>
+</head>
+<body>
+<div id="app" class="container-fluid"></div>
+</body>
+</html>
