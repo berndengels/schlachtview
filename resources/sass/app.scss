@@ -87,4 +87,19 @@ ul {
 	li {
 		font-size: 1.0rem;
 	}
+
+	.persons {
+		bottom: 10px;
+		.col {
+			text-align: center;
+			strong {
+				color: #fff;
+				font-size: 1.0rem;
+			}
+			span {
+				color: #fff;
+				font-size: 1.0rem;
+			}
+		}
+	}
 }
