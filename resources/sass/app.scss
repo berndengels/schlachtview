@@ -37,12 +37,20 @@ ul {
 	}
 }
 .persons {
+	margin-top: 200px;
 	vertical-align: bottom;
 	.col {
 		text-align: center;
-		color: #fff;
-		font-size: 2.0rem;
-		font-weight: 200;
+		strong {
+			color: #fff;
+			font-size: 2.0rem;
+			font-weight: 200;
+		}
+		span {
+			color: #fff;
+			font-size: 2.0rem;
+			font-weight: 200;
+		}
 	}
 }
 #player {
