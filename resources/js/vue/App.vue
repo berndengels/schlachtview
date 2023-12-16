@@ -21,7 +21,7 @@
 			<div class="col">
 			</div>
 		</div>
-		<div class="row persons position-absolute bottom-1 w-100">
+		<div class="row persons">
 			<div class="col"><strong>Lollo</strong><br><span>Kowalski-Bass</span></div>
 			<div class="col"><strong>Peter</strong><br><span>Duracell-Häschen-Drums</span></div>
 			<div class="col"><strong>Bernd</strong><br><span>Panic-Guitar</span></div>
