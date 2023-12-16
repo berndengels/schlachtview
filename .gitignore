@@ -4,3 +4,8 @@
 /.vscode
 /_ide_helper.php
 /.phpstorm.meta.php
+/node_modules
+/package-lock.json
+/public/js
+/public/css
+/public/fonts/
