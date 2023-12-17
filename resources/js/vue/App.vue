@@ -22,7 +22,7 @@
 		</div>
 		<div class="row persons">
 			<div class="col"><strong>Lollo</strong><br><span>Kowalski-Bass</span></div>
-			<div class="col"><strong>Peter</strong><br><span>Duracell-Häschen-Drums<br>Texte, Gesang</span></div>
+			<div class="col"><strong>Peter</strong><br><span>Duracell-Häschen-Drums,<br>Texte, Gesang</span></div>
 			<div class="col"><strong>Bernd</strong><br><span>Panic-Guitar</span></div>
 		</div>
 	</div>
