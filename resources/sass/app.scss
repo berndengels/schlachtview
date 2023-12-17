@@ -27,15 +27,18 @@ body {
 }
 h1 {
 	text-align: left;
-	font-size: 2.0rem;
+	font-size: 1.8rem;
 	background: transparent;
 	color: #fff;
 	text-shadow: red;
 	font-weight: 200;
+	span {
+		margin-left: 1.0rem;
+		font-size: 1.8rem;
+	}
 }
 ul {
 	position: relative;
-	top: 50px;
 	width: 50%;
 	z-index: 100;
 	li {
@@ -87,6 +90,12 @@ ul {
 	}
 	h1 {
 		font-size: 1.5rem;
+		text-align: right;
+		span {
+			display: inline-block;
+			clear: right;
+			margin: 0;
+		}
 	}
 	ul {
 		width: 100%;

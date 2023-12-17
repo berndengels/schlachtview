@@ -1,6 +1,6 @@
 <template>
 	<div class="align-content-center justify-content-center w-100">
-		<h1 class="mt-3 ms-3">Schlachtview - Schocktherapie (Berlin 1997)</h1>
+
 		<div id="player" v-if="current">
 			<av-bars
 				caps-color="#fff"
@@ -18,6 +18,7 @@
 				</ul>
 			</div>
 			<div class="col">
+				<h1 class="mt-3 ms-3 float-end">Schlachtview - Schocktherapie<span>(Berlin 1997)</span></h1>
 			</div>
 		</div>
 		<div class="row persons">
