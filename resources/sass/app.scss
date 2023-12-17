@@ -9,20 +9,21 @@ $grid-breakpoints: (
 
 @import "include-media";
 @import "variables";
-
-body {
-	position: fixed;
-	width: 100%;
-	height: 100vh;
-	z-index: 1;
-	background-color: #000;
-	background-image: url('/img/band.jpg');
-	background-repeat: no-repeat;
-	background-size: 100%;
-	backdrop-filter: blur(1.5px);
-	* {
-		font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
-		font-size: 1.0rem;
+html {
+//	height: 100vh;
+	body {
+		width: 100%;
+//		height: 100vh;
+		z-index: 1;
+		background-color: #000;
+		background-image: url('/img/band.jpg');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		backdrop-filter: blur(1.5px);
+		* {
+			font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+			font-size: 1.0rem;
+		}
 	}
 }
 h1 {
