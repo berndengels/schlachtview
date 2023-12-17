@@ -8,7 +8,6 @@
 				canv-fill-color="transparent"
 				:caps-height="2"
 				:brick-space="1"
-				:symmetric="true"
 				:src="current.url"
 			></av-bars>
 		</div>
