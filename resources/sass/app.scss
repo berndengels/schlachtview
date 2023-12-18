@@ -45,6 +45,11 @@ ul {
 		color: #fff;
 		font-size: 1.5rem;
 		font-weight: 200;
+		cursor: pointer;
+		&:hover {
+			padding-left: 1.0rem;
+			background-color: #f00;
+		}
 	}
 }
 .persons {
