@@ -1,15 +1,5 @@
 <template>
 	<div class="align-content-center justify-content-center w-100">
-		<div id="player" v-if="current">
-			<av-bars
-				caps-color="#fff"
-				:bar-color="['#f00', '#ff0', '#0f0']"
-				canv-fill-color="transparent"
-				:caps-height="2"
-				:brick-space="1"
-				:src="current.url"
-			></av-bars>
-		</div>
 		<div class="row">
 			<div class="col">
 				<ul class="list-unstyled mt-3 ms-3">
@@ -25,6 +15,16 @@
 			<div class="col"><strong>Lollo</strong><br><span>Kowalski-Bass</span></div>
 			<div class="col"><strong>Peter</strong><br><span>Duracell-Häschen-Drums,<br>Texte, Gesang</span></div>
 			<div class="col"><strong>Bernd</strong><br><span>Panic-Guitar</span></div>
+		</div>
+		<div id="player" v-if="current">
+			<av-bars
+				caps-color="#fff"
+				:bar-color="['#f00', '#ff0', '#0f0']"
+				canv-fill-color="transparent"
+				:caps-height="2"
+				:brick-space="1"
+				:src="current.url"
+			></av-bars>
 		</div>
 	</div>
 </template>

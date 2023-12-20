@@ -4,7 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<meta title="Schlachtvieh - Schocktherapie">
 	<link rel="icon" href="favicon.ico">
-	<link rel="stylesheet" href="css/app.css"/>
+	<link rel="stylesheet" href="css/app.css?<?php echo time(); ?>"/>
 	<script src="js/app.js"></script>
 </head>
 <body>
